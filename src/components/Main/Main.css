@@ -1,0 +1,41 @@
+.Main {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.Main * {
+  height: 50px;
+  margin: 0 20px;
+  padding: 0;
+  font-size: 20px;
+}
+
+.Main input {
+  margin-bottom: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  outline: none;
+  text-indent: 10px;
+}
+
+.Main input:focus {
+  border: 1px solid orange;
+}
+
+.Main button {
+  border: none;
+  border-radius: 5px;
+}
+
+.active {
+  background-color: orange;
+}
+
+.active:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
